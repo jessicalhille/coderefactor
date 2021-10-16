@@ -1,3 +1,5 @@
+/* Global */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +9,8 @@
 body {
     background-color: #d9dcd6;
 }
+
+/* Header */ 
 
 /*changed from class .header to header*/
 header {
@@ -70,6 +74,8 @@ p {
     margin-left: 25px;
 }
 
+/* Main Content */
+
 .content {
     width: 75%;
     display: inline-block;
@@ -115,23 +121,30 @@ p {
     background-color: #2589bd;
 }
 
-/*changed class for all 3 div to be .benefit-group on HTML, able to eliminate repetative code on CSS*/
-.benefit-group {
+/*changed ids to match HTML edits, able to eliminate repetative code*/
+#benefit-lead,
+#benefit-brand,
+#benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-group h3 {
+#benefit-lead h3,
+#benefit-brand h3,
+#benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-group img {
+#benefit-lead img,
+#benefit-brand img,
+#benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/*end of change to .benefit-group*/
+
+/* Footer */
 
 /*changed from .footer to footer*/
 footer {
