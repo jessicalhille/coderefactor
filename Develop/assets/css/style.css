@@ -64,6 +64,14 @@ p {
     background-position: center;
 }
 
+/* Main Content */
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -72,14 +80,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-/* Main Content */
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 /*changed to match ids in HTML, able to eliminate repetative code on CSS*/
