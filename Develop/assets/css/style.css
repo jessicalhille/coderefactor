@@ -76,6 +76,27 @@ p {
     margin-left: 20px;
 }
 
+/*changed class for all 3 div to be .content-group on HTML, able to eliminate repetative code on CSS*/
+/*moved up from line 108 to have better structure and flow*/
+.content-group {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content-group img {
+    max-height: 200px;
+}
+
+.content-group h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*end of change to .content-group*/
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,26 +125,6 @@ p {
     max-width: 150px;
 }
 /*end of change to .benefit-group*/
-
-/*changed class for all 3 div to be .content-group on HTML, able to eliminate repetative code on CSS*/
-.content-group {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content-group img {
-    max-height: 200px;
-}
-
-.content-group h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/*end of change to .content-group*/
 
 /*changed from .footer to footer*/
 footer {
