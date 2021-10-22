@@ -21,8 +21,9 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 
-<img src="./assets/images/screen-shot1">
-<img src="./assets/images/screen-shot2">
+<img width="1349" alt="screen-shot1" src="https://user-images.githubusercontent.com/91511805/138380420-0ab81849-918c-482f-bec4-e5c766f83305.png">
+
+<img width="1349" alt="screen-shot2" src="https://user-images.githubusercontent.com/91511805/138380438-dfaa5208-5eeb-4a6d-addf-3da719e044a9.png">
 
 ## Link to Deployed Application
 https://jessicalhille.github.io/horiseon-coderefactor/
