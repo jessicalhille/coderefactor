@@ -10,9 +10,19 @@ body {
     background-color: #d9dcd6;
 }
 
+/* moved from line 58 */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
 /* Header */ 
 
-/*changed from class .header to header*/
+/* changed from class .header to header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,15 +56,6 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 /* Large Header Image */
 
 .hero {
@@ -84,8 +85,8 @@ p {
     margin-left: 25px;
 }
 
-/*changed to match ids in HTML, able to eliminate repetative code on CSS*/
-/*moved up from line 108 to have better structure and flow*/
+/* changed to match ids in HTML, able to eliminate repetative code on CSS */
+/* moved up from line 108 to have better structure and flow */
 #search-engine-optimization,
 #online-reputation-management,
 #social-media-marketing {
@@ -123,7 +124,7 @@ p {
     background-color: #2589bd;
 }
 
-/*changed ids to match HTML edits, able to eliminate repetative code*/
+/* changed ids to match HTML edits, able to eliminate repetative code */
 #benefit-lead,
 #benefit-brand,
 #benefit-cost {
@@ -148,7 +149,7 @@ p {
 
 /* Footer */
 
-/*changed from .footer to footer*/
+/* changed from .footer to footer */
 footer {
     padding: 30px;
     clear: both;
